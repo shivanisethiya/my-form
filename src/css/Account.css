@@ -1,0 +1,87 @@
+.heading3{
+    top: 0px;
+left: 0px;
+width: 375px;
+height: 68px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000007;
+opacity: 1;
+}
+.heading-1{
+   position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 146px;
+    height: 22px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 18px/21px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.image{
+    position: absolute;
+    top: 98px;
+left: 20px;
+width: 70px;
+height: 70px;
+/* UI Properties */
+border-radius: 100%;
+opacity: 1;
+}
+.userName{
+    position: absolute;
+    top: 98px;
+    left: 116px;
+    width: 250px;
+    height: 18px;
+    text-align: left;
+    font: normal normal medium 15px/19px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 16px;
+    font-family: Rubik;
+    /* border: 2px solid black; */
+}
+.userEmail{
+    position: absolute;
+    top: 127px;
+    left: 116px;
+    width: 250px;
+    height: 17px;
+    text-align: left;
+    font: normal normal normal 14px/19px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    text-transform: capitalize;
+    opacity: 0.7;
+    font-size: 13px;
+    font-family: Rubik;
+    /* border: 2px solid black; */
+    
+}
+.content3{
+    top: 200px;
+left: 20px;
+width: 337px;
+height: 63px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/22px Rubik;
+letter-spacing: 0px;
+color: #1D2226;
+text-transform: capitalize;
+opacity: 1;
+position: absolute;
+}
+.line{
+    border: 1px dashed;
+    top: 300px;
+    position: absolute;
+    width: 370px;
+    opacity: 0.3;
+}

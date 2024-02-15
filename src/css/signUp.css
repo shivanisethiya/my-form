@@ -1,0 +1,290 @@
+.heading1{
+    top: 30px;
+left: 20px;
+width: 200px;
+height: 69px;
+/* UI Properties */
+text-align: left;
+/* font: normal normal medium 28px/36px Rubik; */
+letter-spacing: 0px;
+color: #1D2226;
+opacity: 1;
+font-size: 28px;
+font-family: Rubik;
+position: absolute;
+}
+.nameLabel{
+    position: absolute;
+    top: 132px;
+    left: 30px;
+width: 100px;
+height: 15px;
+text-align: left;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+letter-spacing: 0px;
+opacity: 1;
+color: #6C25FF;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+z-index: 1;
+}
+.inputtype1{
+    all: unset;
+    position: absolute;
+    top: 140px;
+left: 20px;
+width: 335px;
+height: 40px;
+/* UI Properties */
+border: 1px solid #bbb8b8;
+border-radius: 6px;
+border:2px rgb(160, 158, 158);
+box-shadow: 0 0 3px 1px rgb(202, 199, 199,0.5);
+opacity: 1;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+z-index: 0;
+}
+.phoneLabel{
+    left: 30px;
+    position: absolute;
+    top: 200px;
+z-index: 1;
+    width: 150px;
+    height: 15px;
+    text-align: left;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #6C25FF;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+
+}
+.input2{
+    all: unset;
+    position: absolute;
+    top: 209px;
+left: 20px;
+width: 335px;
+height: 40px;
+/* UI Properties */
+border: 1px solid #CBCBCB;
+border-radius: 6px;
+opacity: 1;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+
+border:2px rgb(160, 158, 158);
+box-shadow: 0 0 3px 1px rgb(202, 199, 199,0.5);
+}
+.emailLabel{
+    position: absolute;
+    top: 269px;
+    left: 30px;
+width: 100px;
+height: 15px;
+/* UI Properties */
+text-align: left;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+letter-spacing: 0px;
+opacity: 1;
+color: #6C25FF;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+z-index: 1;
+}
+.input3{
+    all: unset;
+    position: absolute;
+    top: 278px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    /* UI Properties */
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    border:2px rgb(160, 158, 158);
+box-shadow: 0 0 3px 1px rgb(202, 199, 199,0.5);
+}
+.passLabel{
+    position: absolute;
+    top: 338px;
+    left: 30px;
+    width: 75px;
+    height: 15px;
+    /* UI Properties */
+    text-align: left;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #6C25FF;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    z-index: 1;
+}
+.input4{
+    all: unset;
+    position: absolute;
+    top: 347px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    border:2px rgb(160, 158, 158);
+box-shadow: 0 0 3px 1px rgb(202, 199, 199,0.5);
+}
+.comLabel{
+    position: absolute;
+    top: 407px;
+    left: 30px;
+    width: 110px;
+    height: 15px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    z-index: 1;
+}
+.input5{
+    all: unset;
+    position: absolute;
+    top: 416px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    font-size: 13px;
+    font-family: Rubik;
+    font-weight: 500;
+    border:2px rgb(160, 158, 158);
+    box-shadow: 0 0 3px 1px rgb(202, 199, 199,0.5);
+}
+.radioLabel{
+    position: absolute;
+    top: 470px;
+    left: 20px;
+width: 150px;
+height: 15px;
+text-align: left;
+font: normal normal normal 13px/17px Rubik;
+letter-spacing: 0px;
+opacity: 1;
+color: #6C25FF;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+}
+/* .container{
+    position: absolute;
+    top: 474px;
+left: 20px;
+width: 132px;
+height: 47px;
+
+opacity: 1;
+font-size: 13px;
+font-family: Rubik;
+font-weight: 500;
+display: flex;
+gap:50px;
+} */
+.submit{
+    top: 736px;
+left: 20px;
+width: 335px;
+height: 46px;
+background: #6C25FF 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+position: absolute;
+color: white;
+font-size: 16px;
+font-family: Rubik;
+}
+.radio1{
+    top: 508px;
+left: 25px;
+width: 22px;
+height: 22px;
+/* UI Properties */
+background: #6C25FF 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+/* position: relative; */
+
+}
+.radio2{
+  position: absolute;  
+    top: 508px;
+left: 100px;
+width: 23px;
+height: 23px;
+/* UI Properties */
+border: 1px solid #919191;
+opacity: 1;
+
+}
+.radio-text1{
+    position:absolute;
+    top: 515px;
+    left: 60px;
+    width: 23px;
+    height: 17px;
+    text-align: left;
+    /* font: normal normal normal 14px/17px Rubik; */
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 1;
+    font-size: 14px;
+    font-family: Rubik;
+    position: absolute;
+}
+.asteric{
+    color:rgb(184, 14, 14);
+}
+.radio-text2{
+    top: 515px;
+left: 140px;
+width: 18px;
+height: 17px;
+text-align: left;
+/* font: normal normal normal 14px/17px Rubik; */
+letter-spacing: 0px;
+color: #1D2226;
+opacity: 1;
+font-size: 14px;
+font-family: Rubik;
+position: absolute;
+}

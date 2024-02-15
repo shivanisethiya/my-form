@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import Signup from './Signup';
+import Account from './Account';
+import Login from './Login';
+import { useState } from 'react';
 
 function App() {
+ 
+  const [userData, setUserData] = useState(null);
+
+  const onSubmitHandler = (data) => {
+    setUserData(data);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/Signup' element={<Signup onSubmit={onSubmitHandler}/>}/>
+    <Route path='/login' element={<Login submit={onSubmitHandler}/>}/>
+    <Route path='/account' element={<Account data={userData}/>}/>
+   </Routes>
   );
 }
 
